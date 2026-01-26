@@ -44,9 +44,10 @@ if (window.location.pathname.includes("dashboard.html")) {
         box.className = "file-box";
         box.innerHTML = `
           <h3>${file.name}</h3>
-          <a href="${file.url}" target="_blank">Open</a>
+          <a href="${file.url}" target="_blank">Download</a>
         `;
         container.appendChild(box);
       });
     });
 }
+
