@@ -15,8 +15,10 @@ body {
 
   background-image: url("https://images.pexels.com/photos/35196531/pexels-photo-35196531.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachement: fixed;
+  
 
   display: flex;
   justify-content: center;
@@ -87,3 +89,4 @@ button {
   border-radius: 20px;
   text-decoration: none;
 }
+
